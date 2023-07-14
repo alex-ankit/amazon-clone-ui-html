@@ -1,0 +1,309 @@
+/* 
+    color code : #131921
+    color code : #232f3e
+    color code : #febd69
+*/
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Montserrat', sans-serif;
+  }
+  
+  header {
+    height: 60px;
+    background-color: #131921;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 12px;
+    position: sticky;
+    top: 0;
+    z-index: 50;
+  }
+  
+  .header-logo {
+    width: 100px;
+  }
+  
+  .header-add {
+    border: 1px solid #131921;
+    padding: 10px 6px;
+  }
+  
+  .header-add:hover {
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+  .header-small-text {
+    font-size: 11px;
+    font-weight: 500;
+    color: rgb(212, 212, 212);
+  }
+  
+  .header-small-text-padding {
+    padding: 0px 16px;
+  }
+  
+  .header-small-bold-text {
+    font-size: small;
+    font-weight: 600;
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .searchbar {
+    display: flex;
+    align-items: center;
+  }
+  
+  .searchbar-first-sec {
+    background-color: rgb(235, 235, 235);
+    color: #404041;
+    padding: 9.5px;
+    border-right: 1px solid #b8b6b6;
+    font-size: smaller;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+  }
+  
+  .searchbar-first-sec:hover {
+    background-color: rgb(196, 194, 194);
+    cursor: pointer;
+  }
+  
+  .searchbar input {
+    padding: 9.5px;
+    width: 500px;
+    border: none;
+    outline: none;
+  }
+  .searchbar input::placeholder {
+    font-weight: 600;
+    font-size: small;
+  }
+  .searchbar-third-sec {
+    background-color: #febd69;
+    color: rgb(14, 13, 13);
+    padding: 9.5px 16px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+  }
+  
+  .searchbar-third-sec:hover {
+    background-color: #ffb451;
+    cursor: pointer;
+  }
+  
+  .region-sec {
+    border: 1px solid #131921;
+    padding: 14px 6px;
+    font-size: small;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+    font-weight: 600;
+  }
+  
+  .region-sec:hover {
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+  .region-sec img {
+    width: 20px;
+  }
+  .verticle-end-margin {
+    margin-top: 6px;
+  }
+  .account-sec {
+    border: 1px solid #131921;
+    padding: 10px 6px;
+  }
+  .account-sec:hover {
+    border: 1px white solid;
+    cursor: pointer;
+  }
+  .return-sec {
+    border: 1px solid #131921;
+    padding: 10px 6px;
+  }
+  .return-sec:hover {
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+  nav {
+    background-color: #232f3e;
+    height: 40px;
+    color: white;
+    padding: 0px 12px;
+    display: flex;
+    gap: 2px;
+    align-items: center;
+    justify-content: space-between;
+    overflow: hidden;
+  }
+  
+  nav div {
+    font-size: small;
+    font-weight: 500;
+    border: 1px solid #232f3e;
+    padding: 8px;
+    white-space: nowrap;
+  }
+  nav div:hover {
+    border: 1px solid white;
+    cursor: pointer;
+  }
+  
+  /* --------- nav code ends ------- */
+  .carousel-sec {
+    position: relative;
+  }
+  
+  .slide {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .cards_container {
+    display: flex;
+    gap: 12px;
+    position: absolute;
+    top: 250px;
+    left: 0;
+    right: 0;
+    padding: 12px;
+  }
+  .card {
+    width: 25%;
+    background-color: white;
+    padding: 12px;
+    border: 1px solid rgb(224, 223, 223);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(240, 240, 240);
+  }
+  .first-card-sec {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 12px;
+    padding: 12px;
+    margin-top: 12px;
+  }
+  
+  .first-card-card {
+    margin-bottom: 12px;
+  }
+  
+  .first-card-card div img {
+    width: 100%;
+  }
+  
+  .first-card-card div p {
+    font-size: smaller;
+    font-weight: 600;
+  }
+  .top-padding {
+    padding: 12px;
+  }
+  .card-responsive-img {
+    width: 100%;
+    height: auto;
+  }
+  .last-card {
+    height: 120px;
+  }
+  .card a {
+    color: rgb(0, 167, 167);
+    font-size: smaller;
+    font-weight: 500;
+    text-decoration: none;
+  }
+  .card a:hover {
+    color: orangered;
+  }
+  .btn-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .card button {
+    width: 90%;
+    padding: 8px 0px;
+    border-radius: 12px;
+    background-color: rgb(221, 221, 24);
+    border: none;
+    margin-top: 12px;
+  }
+  
+  .card button:hover {
+    background-color: rgb(243, 243, 37);
+    cursor: pointer;
+  }
+  
+  .bg-gray {
+    background-color: rgb(219, 219, 219);
+  }
+  .container {
+    background-color: white;
+    padding: 12px;
+  }
+  .slider-container {
+    display: flex;
+    gap: 12px;
+    overflow: hidden;
+    overflow-x: auto;
+  }
+  
+  /* Hide scrollbar for Chrome, Safari and Opera */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  
+  /* Hide scrollbar for IE, Edge and Firefox */
+  .no-scrollbar {
+    -ms-overflow-style: none; /* IE and Edge */
+    scrollbar-width: none; /* Firefox */
+  }
+  .slider-card {
+    min-width: 300px;
+    height: auto;
+    border: 4px solid rgb(121, 38, 38);
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px rgb(240, 240, 240);
+  }
+  
+  .center-img {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+  }
+  .center-img img {
+    object-fit: contain;
+    height: 250px;
+  }
+  .slider-card-taxt-padding {
+    padding: 5px;
+  }
+  .slider-card-taxt-padding button {
+    border: none;
+    border-radius: 2px;
+    background-color: #cc0c39;
+    color: white;
+    padding: 6px 8px;
+    margin-right: 12px;
+  }
+  .slider-card-taxt-padding span {
+    font-weight: 600;
+    font-size: small;
+    color: #cc0c39;
+  }
+  .slider-card-taxt-padding p {
+    font-size: 14px;
+    font-weight: 500;
+  }

@@ -1,0 +1,765 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>
+      Online Shopping site in India: Shop Online for Mobiles, Books, Watches,
+      Shoes and More - Amazon.in
+    </title>
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <link rel="stylesheet" href="./style.css" />
+    <!-- font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- ----------------- First Header ----------- -->
+    <header>
+      <!-- ---- amazon logo ---- -->
+      <div>
+        <img class="header-logo" src="./images/logo.png" />
+      </div>
+      <!-- -- address --- -->
+      <div class="header-add">
+        <p class="header-small-text header-small-text-padding">
+          Deliver To Inflection ORG
+        </p>
+        <div class="flex">
+          <!-- --- Location Icon --- -->
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-geo-alt"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M12.166 8.94c-.524 1.062-1.234 2.12-1.96 3.07A31.493 31.493 0 0 1 8 14.58a31.481 31.481 0 0 1-2.206-2.57c-.726-.95-1.436-2.008-1.96-3.07C3.304 7.867 3 6.862 3 6a5 5 0 0 1 10 0c0 .862-.305 1.867-.834 2.94zM8 16s6-5.686 6-10A6 6 0 0 0 2 6c0 4.314 6 10 6 10z"
+            />
+            <path
+              d="M8 8a2 2 0 1 1 0-4 2 2 0 0 1 0 4zm0 1a3 3 0 1 0 0-6 3 3 0 0 0 0 6z"
+            />
+          </svg>
+          <p class="header-small-bold-text">Khamaria 221306</p>
+        </div>
+      </div>
+      <!-- ----- Searchbar --- -->
+      <div class="searchbar">
+        <div class="searchbar-first-sec">
+          <span>All</span>
+          <span>
+            <svg
+              xmlns="http://www.w3.org/2000/svg"
+              width="12"
+              height="12"
+              fill="currentColor"
+              class="bi bi-caret-down-fill"
+              viewBox="0 0 16 16"
+            >
+              <path
+                d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+              />
+            </svg>
+          </span>
+        </div>
+        <input placeholder="Search Amazon.in" type="text" />
+        <div class="searchbar-third-sec">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="16"
+            height="16"
+            fill="currentColor"
+            class="bi bi-search"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M11.742 10.344a6.5 6.5 0 1 0-1.397 1.398h-.001c.03.04.062.078.098.115l3.85 3.85a1 1 0 0 0 1.415-1.414l-3.85-3.85a1.007 1.007 0 0 0-.115-.1zM12 6.5a5.5 5.5 0 1 1-11 0 5.5 5.5 0 0 1 11 0z"
+            />
+          </svg>
+        </div>
+      </div>
+      <!-- --- language Section -- -->
+      <div class="region-sec">
+        <img src="./images/indian_flag.png" />
+        <p>EN</p>
+        <span class="verticle-end-margin">
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="12"
+            height="12"
+            fill="currentColor"
+            class="bi bi-caret-down-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+            />
+          </svg>
+        </span>
+      </div>
+      <!-- Account List ------- -->
+      <div class="account-sec">
+        <p class="header-small-text">Hello, Inflection ORG</p>
+        <div class="header-small-bold-text">
+          <span>Account & Lists</span>
+          <svg
+            style="margin-bottom: -2px"
+            xmlns="http://www.w3.org/2000/svg"
+            width="12"
+            height="12"
+            fill="currentColor"
+            class="bi bi-caret-down-fill"
+            viewBox="0 0 16 16"
+          >
+            <path
+              d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"
+            />
+          </svg>
+        </div>
+      </div>
+      <!-- Returns & Orders ------- -->
+      <div class="return-sec">
+        <p class="header-small-text">Returns</p>
+        <div class="header-small-bold-text">
+          <span>& Orders</span>
+        </div>
+      </div>
+    </header>
+    <!-- --- Second Nav -------------- -->
+    <nav>
+      <div style="display: flex; align-items: center">
+        <span
+          ><svg
+            xmlns="http://www.w3.org/2000/svg"
+            width="20"
+            height="20"
+            fill="currentColor"
+            class="bi bi-list"
+            viewBox="0 0 16 16"
+          >
+            <path
+              fill-rule="evenodd"
+              d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z"
+            />
+          </svg>
+        </span>
+        <span style="font-weight: 700">All</span>
+      </div>
+      <div>Amazon Pay</div>
+      <div>Buy Again</div>
+      <div>Today's Deals</div>
+      <div>Gift Cards</div>
+      <div>Customer Service</div>
+      <div>Best Sellers</div>
+      <div>Amazon miniTV</div>
+      <div>Sell</div>
+      <div>Health, Household & Personal Care</div>
+      <div>Coupons</div>
+      <div>Baby</div>
+      <div>Toys & Games</div>
+    </nav>
+    <!-- ----- Main Content --------- -->
+    <main>
+      <!-- ----- Carousel --------- -->
+      <div class="carousel-sec">
+        <img class="slide" src="./images/carousel/7.jpg" />
+        <!-- ---- Card Container ---- -->
+        <div class="cards_container">
+          <!-- first card - -->
+          <div class="card">
+            <h3>Up to 70% off | Styles for men</h3>
+            <div class="first-card-sec">
+              <div class="first-card-card">
+                <div>
+                  <img src="./images/first_card/clothing.jpg"/>
+                  <p>Clothing</p>
+                </div>
+              </div>
+              <div class="first-card-card">
+                <div>
+                  <img src="./images/first_card/footwear.jpg" />
+                  <p>Footwear</p>
+                </div>
+              </div>
+              <div class="first-card-card">
+                <div>
+                  <img src="./images/first_card/watches.jpg" />
+                  <p>Watches</p>
+                </div>
+              </div>
+              <div class="first-card-card">
+                <div>
+                  <img src="./images/first_card/bags.jpg" />
+                  <p>Bags and Laggage</p>
+                </div>
+              </div>
+            </div>
+            <a href="#">Explore all offers</a>
+          </div>
+          <!-- ---- second card ------ -->
+     
+            <div class="card">
+                <h3>Prime Day is July 15th and 16th</h3>
+                <div class="top-padding">
+                  <img
+                    class="card-responsive-img"
+                    src="./second_card/prime_day.jpg"
+                  />
+                </div>
+            <a href="#">Explore all prime day offers</a>
+          </div>
+          <!-- ----------- Third card --- -->
+          <div class="card">
+            <h3>Now buy medicines on amazon | Up to 30% off</h3>
+            <div class="top-padding">
+              <img
+                class="card-responsive-img"
+                src="./third_card/pharmacy.jpg"
+              />
+            </div>
+            <a href="#">Visit the store</a>
+          </div>
+          <!-- fourth card ----- -->
+          <div class="card last-card">
+            <h3>Sign in for your best experience</h3>
+
+            <div class="btn-container">
+              <button>Sign in</button>
+            </div>
+          </div>
+       
+      </div>
+    </div>
+      <!-- ------ Second card Section -------- -->
+       <!---<div
+        style="background-image: linear-gradient(#eaf5fb, rgb(219, 219, 219))" >
+        <div style="padding-top: 120px">
+        </div> --->
+        <!-- ---- Card Container2 ---- -->
+        <div class="cards_container2">
+            <!-- first card - -->
+            <div class="card2">
+              <h3>Revamp your home in style</h3>
+              <div class="second-card-sec">
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_1_Low._SY116_CB670263840_.jpg"/>
+                    <p>Clothing</p>
+                  </div>
+                </div>
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_2_Low._SY116_CB670263840_.jpg" />
+                    <p>Footwear</p>
+                  </div>
+                </div>
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_3_Low._SY116_CB670263840_.jpg" />
+                    <p>Watches</p>
+                  </div>
+                </div>
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/IMG20/Home/2021/GW/MSO/April/372x232_4_Low._SY116_CB670263840_.jpg" />
+                    <p>Bags and Laggage</p>
+                  </div>
+                </div>
+              </div>
+              <a href="#">Explore all offers</a>
+            </div>
+            <!-- second card - -->
+            <div class="card2">
+                <h3>Up to 70% off | Clearance store</h3>
+                <div class="top-padding2">
+                  <img
+                    class="card-responsive-src"
+                    src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/Electronics/Clearance/Clearance_store_Desktop_CC_1x._SY304_CB628315133_.jpg"/>
+                </div>
+            </div>
+            <!-- third card - -->
+            <div class="card2">
+              <h3>Up to 60% off | Baby essentials & toys |</h3>
+              <div class="second-card-sec">
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/QC_Toys--baby_1861._SY116_CB602730009_.jpg"/>
+                    <p>Clothing</p>
+                  </div>
+                </div>
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/QC_Toys--baby_1862._SY116_CB602730009_.jpg" />
+                    <p>Footwear</p>
+                  </div>
+                </div>
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/QC_Toys--baby_1863._SY116_CB602730009_.jpg" />
+                    <p>Watches</p>
+                  </div>
+                </div>
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/QC_Toys--baby_1864._SY116_CB602730009_.jpg" />
+                    <p>Bags and Laggage</p>
+                  </div>
+                </div>
+              </div>
+              <a href="#">Explore all offers</a>
+            </div>
+            <!-- fourth card - -->
+            <div class="card2">
+              <h3>Automotive essentials | Up to 60% off</h3>
+              <div class="second-card-sec">
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare1X._SY116_CB410830553_.jpg"/>
+                    <p>Clothing</p>
+                  </div>
+                </div>
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg" />
+                    <p>Footwear</p>
+                  </div>
+                </div>
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg" />
+                    <p>Watches</p>
+                  </div>
+                </div>
+                <div class="second-card-card">
+                  <div>
+                    <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum1x._SY116_CB410830552_.jpg" />
+                    <p>Bags and Laggage</p>
+                  </div>
+                </div>
+              </div>
+              <a href="#">Explore all offers</a>
+            </div>
+        </div>
+
+
+    <div style="background-color: rgb(219, 219, 219)">  
+      <div class="slidemain">
+          <div class="title">
+            <span>Today's Deals</span
+            ><span><a href="#">see all details</a></span>
+          </div>
+          <!-- ------------ Slider Scroller ----- -->
+          <div class="slider-container no-scrollbar">
+              <div class="slider-card">
+                <!-- ---- img div-- -->
+                <div class="center-img">
+                  <img src="https://m.media-amazon.com/images/I/51GR7pLz6RL._AC_SY200_.jpg" />
+                </div>
+                <!-- -- text- div  -->
+                <div class="slider-card-taxt-padding">
+                  <button>27% off</button><span>Deal of day</span>
+                  <p>
+                    &#8377; 2000
+                    <span style="text-decoration: line-through">50000</span>
+                  </p>
+                  <p>Lava blaze 5G hsd hjsghws hjv</p>
+                </div>
+              </div>   
+              <div class="slider-card">
+                <!-- ---- img div-- -->
+                <div class="center-img">
+                  <img src="https://m.media-amazon.com/images/I/31hXqtvutdL._AC_SY200_.jpg" />
+                </div>
+                <!-- -- text- div  -->
+                <div class="slider-card-taxt-padding">
+                  <button>UP to 55% off</button><span>Deal of day</span>
+                  <p>
+                    &#8377; 2500
+                    <span style="text-decoration: line-through">8000</span>
+                  </p>
+                  <p>One plus new lanch</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <!-- ---- img div-- -->
+                <div class="center-img">
+                  <img src="https://m.media-amazon.com/images/I/41CK1CvkW6L._AC_SY200_.jpg" />
+                </div>
+                <!-- -- text- div  -->
+                <div class="slider-card-taxt-padding">
+                  <button>15% off</button><span>Deal of day</span>
+                  <p>
+                    &#8377; 42000
+                    <span style="text-decoration: line-through">50000</span>
+                  </p>
+                  <p>Lava blaze 5G hsd hjsghws hjv</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <!-- ---- img div-- -->
+                <div class="center-img">
+                  <img src="https://m.media-amazon.com/images/I/413gXukxurL._AC_SY200_.jpg" />
+                </div>
+                <!-- -- text- div  -->
+                <div class="slider-card-taxt-padding">
+                  <button>25% off</button><span>Deal of day</span>
+                  <p>
+                    &#8377; 22000
+                    <span style="text-decoration: line-through">35000</span>
+                  </p>
+                  <p>new phone realmi 50A full display</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <!-- ---- img div-- -->
+                <div class="center-img">
+                  <img src="https://m.media-amazon.com/images/I/81TBkVDGeGL._AC_SY200_.jpg" />
+                </div>
+                <!-- -- text- div  -->
+                <div class="slider-card-taxt-padding">
+                  <button>40% off</button><span>Deal of day</span>
+                  <p>
+                    &#8377; 300
+                    <span style="text-decoration: line-through">500</span>
+                  </p>
+                  <p>puma new style boys new 2023</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <!-- ---- img div-- -->
+                <div class="center-img">
+                  <img src="https://m.media-amazon.com/images/I/41ckHFjzfXL._AC_SY200_.jpg" />
+                </div>
+                <!-- -- text- div  -->
+                <div class="slider-card-taxt-padding">
+                  <button>50% off</button><span>Deal of day</span>
+                  <p>
+                    &#8377; 20000
+                    <span style="text-decoration: line-through">40000</span>
+                  </p>
+                  <p>best 5g mobile top model 2023</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <!-- ---- img div-- -->
+                <div class="center-img">
+                  <img src="https://m.media-amazon.com/images/I/41NPczvT7TL._AC_SY200_.jpg" />
+                </div>
+                <!-- -- text- div  -->
+                <div class="slider-card-taxt-padding">
+                  <button>70% off</button><span>Deal of day</span>
+                  <p>
+                    &#8377; 1500
+                    <span style="text-decoration: line-through">5000</span>
+                  </p>
+                  <p>Shoes new model top brand 2023</p>
+                </div>
+              </div>
+              <div class="slider-card">
+                <!-- ---- img div-- -->
+                <div class="center-img">
+                  <img src="https://m.media-amazon.com/images/I/41qY1aOu08L._AC_SY200_.jpg" />
+                </div>
+                <!-- -- text- div  -->
+                <div class="slider-card-taxt-padding">
+                  <button>70% off</button><span>Deal of day</span>
+                  <p>
+                    &#8377; 1500
+                    <span style="text-decoration: line-through">5000</span>
+                  </p>
+                  <p>new model top brand 2023</p>
+                </div>
+              </div>
+          </div>
+          <!-- ----------------- -->
+      </div>
+   </div>
+
+
+
+       <div style="background-color: rgb(219, 219, 219)">
+        <div class="slide2">
+          <div class="sobar">
+            <span>Today's DealsNew collections from Local Shops</span
+              ><span><a href="#">see all details</a></span>
+          </div>
+          <div class="slider-container2">
+            <div class="slider-card2">
+             <!-- ---- img div-- -->
+             <div class="center-img2">
+              <img src="https://m.media-amazon.com/images/I/81+hR2y+eTL._AC_SY200_.jpg" />
+            </div>
+            </div>
+            <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/61V6nxyR+pL._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/61Gra1ZbB9L._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/61yDg0Az6HL._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/51okUi-zIWL._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/51RI7uO476L._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/71SF9WgJxqL._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/71PKaMN7akL._AC_SY200_.jpg" />
+             </div>
+             </div>
+          </div>
+        </div>
+       </div>
+       
+   <!-----------second slider-->
+       <div style="background-color: rgb(219, 219, 219)">
+        <div class="slide2">
+          <div class="sobar">
+            <span>Health & beauty bestsellers</span
+              ><span><a href="#">see all details</a></span>
+          </div>
+          <div class="slider-container2">
+            <div class="slider-card2">
+             <!-- ---- img div-- -->
+             <div class="center-img2">
+              <img src="https://m.media-amazon.com/images/I/71OdZHlkoxL._AC_SY200_.jpg" />
+            </div>
+            </div>
+            <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/81A3K8vx3RL._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/61CKRoo2WZL._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/81+XkrD-iyL._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/51aGuP83D9L._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/61CKRoo2WZL._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/61Di8nFOqpL._AC_SY200_.jpg" />
+             </div>
+             </div>
+             <div class="slider-card2">
+              <!-- ---- img div-- -->
+              <div class="center-img2">
+               <img src="https://m.media-amazon.com/images/I/51xNAMJmtSL._AC_SY200_.jpg" />
+             </div>
+             </div>
+         </div>
+        </div>
+       </div>
+      
+
+       <div class="cards_container2">
+        <!-- first card - -->
+        <div class="card2">
+          <h3>Minimum 50% off | Top styles for her</h3>
+          <div class="second-card-sec">
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/kids/WRS_Dec22/PC_QC/WA/1_1X._SY116_CB618751254_.jpg"/>
+                <p>Cloth</p>
+              </div>
+            </div>
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/kids/WRS_Dec22/PC_QC/WA/2_1X._SY116_CB618751254_.jpg" />
+                <p>Foot</p>
+              </div>
+            </div>
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/kids/WRS_Dec22/PC_QC/WA/3_1X._SY116_CB618751254_.jpg" />
+                <p>Watch</p>
+              </div>
+            </div>
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img2020/img21/kids/WRS_Dec22/PC_QC/WA/4_1X._SY116_CB618751254_.jpg" />
+                <p>Bags</p>
+              </div>
+            </div>
+          </div>
+          <a href="#">she more ditels</a>
+        </div>
+        <!-- second card - -->
+        <div class="card2">
+            <h3>50% off on selling fee*</h3>
+            <div class="top-padding2">
+              <img
+                class="card-responsive-src"
+                src="https://images-eu.ssl-images-amazon.com/images/G/31/img16/malar/March23/LR_379X304._SY304_CB595115209_.jpg"/>
+            </div>
+        </div>
+        <!-- third card - -->
+        <div class="card2">
+          <h3>Electronics devices for home office</h3>
+          <div class="second-card-sec">
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/QC_Toys--baby_1861._SY116_CB602730009_.jpg"/>
+                <p>Clothing</p>
+              </div>
+            </div>
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/QC_Toys--baby_1862._SY116_CB602730009_.jpg" />
+                <p>Footwear</p>
+              </div>
+            </div>
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/QC_Toys--baby_1863._SY116_CB602730009_.jpg" />
+                <p>Watches</p>
+              </div>
+            </div>
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img22/AmazonBrands/Bikram/Bikram1/QC_Toys--baby_1864._SY116_CB602730009_.jpg" />
+                <p>Bags and Laggage</p>
+              </div>
+            </div>
+          </div>
+          <a href="#">Explore all offers</a>
+        </div>
+        <!-- fourth card - -->
+        <div class="card2">
+          <h3>Automotive essentials | Up to 60% off</h3>
+          <div class="second-card-sec">
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Glasscare1X._SY116_CB410830553_.jpg"/>
+                <p>Clothing</p>
+              </div>
+            </div>
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Rim_tyrecare1x._SY116_CB410830552_.jpg" />
+                <p>Footwear</p>
+              </div>
+            </div>
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vega_helmet_186x116._SY116_CB405090404_.jpg" />
+                <p>Watches</p>
+              </div>
+            </div>
+            <div class="second-card-card">
+              <div>
+                <img src="https://images-eu.ssl-images-amazon.com/images/G/31/img17/Auto/2020/GW/PCQC/Vaccum1x._SY116_CB410830552_.jpg" />
+                <p>Bags and Laggage</p>
+              </div>
+            </div>
+          </div>
+          <a href="#">Explore all offers</a>
+        </div>
+    </div>
+
+    <footer class="footer">
+      <div class="not">
+        <div>
+        <h3>Get to Know Us</h3>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+      </div>
+      <div>
+        <h3>Connect with Us</h3>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+      </div>
+      <div>
+        <h3>Make Money with Us</h3>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+      </div>
+      <div>
+        <h3>Let Us Help You</h3>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+        <p>Get to Know Us</p>
+      </div>
+      </div>
+      <div class="copyright">
+        <div class="wap" >
+        <p>xConditions of Use & Sale
+        Privacy Notice</p>
+      </div>
+      <div class="wap2">
+        <p>
+        Interest-Based Ads
+        © 1996-2023, Amazon.com, Inc. or its affiliates</p>
+      </div>
+      </div>
+    </footer>
+    
+    </main>
+  </body>
+</html>
